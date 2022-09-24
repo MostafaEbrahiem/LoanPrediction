@@ -10,4 +10,5 @@ Web application made using Django framework , It uses machine learning to predic
 
 ![image](https://user-images.githubusercontent.com/88105870/192112456-7cffe922-b938-4e77-93ac-800dc73fe0e5.png)
 
+It was hosted using Heroku and you can try it throw this link:
 https://loan-prediction1001.herokuapp.com/
