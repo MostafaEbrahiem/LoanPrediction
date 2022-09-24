@@ -14,8 +14,9 @@ It was hosted using Heroku and you can try it throw this link:
 https://loan-prediction1001.herokuapp.com/
 
 About the machine learning part:-
-1) used these dataset(https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset?datasetId=137197&sortBy=dateRun&tab=profile)
-delete the first column and fill the null values based on the value of the label column (Loan_Status) if it's 1(accept) ,then it's employed ,not having kids ,not maried , has credit history and graduated (the other numirical values filled with the average ) and vise versa if it's 0(reject).
+
+1)used these dataset(https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset?datasetId=137197&sortBy=dateRun&tab=profile)
+delete the first column and fill the null values based on the value of the label column (Loan_Status) if it's 1(accept) ,then it's employed ,not having kids ,not maried ,has credit history and graduated (the other numirical values filled with the average ) and vise versa if it's 0(reject).
 
 2)Trained the data on three different algorithms (bagging classifier with Grid search , GradientBoosting Classifier with GridSearchCV and SVC with GridSearchCV)
 GradientBoosting Classifier with GridSearchCV was the best one of them all gaining 100% accuracy on training and testing .
