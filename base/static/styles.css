@@ -1,0 +1,148 @@
+:root
+{
+--pale-blue: hsl(225, 100%, 94%);
+--bright-blue: hsl(245, 75%, 52%);
+
+--Very-pale-blue: hsl(225, 100%, 98%);
+--desaturated-blue: hsl(224, 23%, 55%);
+--dark-blue: hsl(223, 47%, 23%);
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+  width: 50%;
+  border: none;
+  font-size: .9rem;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  margin: auto;
+  box-shadow: 0 20px 30px -8px rgb(197, 189, 245);
+}
+
+fieldset{
+  border-width: 5px;
+  border-color: var(--dark-blue);
+  padding-inline-start: 0.9em;
+  padding-inline-end: 0.9em;
+  padding-block-end: 0.7em;
+  padding-block-start: 0.4em;
+  width: fit-content;
+  margin: 40px;
+}
+legend{
+  
+  text-align: -webkit-center;
+  padding-inline-end: 40px;
+  padding-inline-start: 40px;
+  
+}
+
+input{
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  background-color: var(--Very-pale-blue);
+  padding: 10px;
+  font-size: 20px;
+}
+
+h1{
+  margin: 20px;
+}
+
+.body_start{
+  
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--desaturated-blue);
+    font-style: italic;
+    font-size: 16px;
+
+}
+
+
+
+
+.container_header
+{
+
+    padding: 30px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+
+.container
+{
+  border-radius: 12px;
+  width: 450px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--Very-pale-blue);
+  margin: auto;
+  margin-top: 20px;
+}
+
+.header{
+  font-size: 200%;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+
+
+.start{
+  
+  background-color: var(--desaturated-blue);
+  padding: 1rem 0 ;
+  color: white;
+
+  font-size: 200%;
+
+}
+
+/* input.html  */
+
+.body_input{
+  margin: 50px 0px;
+  background-color: var(--desaturated-blue);
+  font-style: italic;
+  font-size: 30px;
+  text-align: -webkit-center;
+
+}
+
+.predicit{
+  background-color: var(--bright-blue);
+  padding: 1rem 0 ;
+  color: white;
+  font-size: 200%;
+}
+
+/* input.html  */
+
+.body_result{
+  margin: 50px 0px;
+  background-color: var(--desaturated-blue);
+  font-style: italic;
+  font-size: 30px;
+  text-align: -webkit-center;
+
+}
