@@ -21,4 +21,4 @@ delete the first column and fill the null values based on the value of the label
 2)Trained the data on three different algorithms (bagging classifier with Grid search , GradientBoosting Classifier with GridSearchCV and SVC with GridSearchCV)
 GradientBoosting Classifier with GridSearchCV was the best one of them all gaining 100% accuracy on training and testing .
 
-3)althogh the data is very small and some results is not realistic ,but some result are and it's good practise to train on real and huge dataset in the future.
+3)Although the data is very small and some results is not realistic ,but some result are and it's good practise to train on real and huge dataset in the future.
